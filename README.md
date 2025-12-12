@@ -10,7 +10,7 @@ This repository contains a technical analysis and reproduction study of DeepMind
 ## 🧠 Key Concepts Analyzed
 * **Tensor Game:** Mapping algorithmic discovery to a 3D tensor decomposition game.
 * **RL Agent:** How AlphaZero was adapted to minimize the rank of the tensor (minimizing scalar multiplications).
-* **Strassen's Algorithm:** Comparative analysis of O(n^2.81) vs AlphaTensor's findings.
+* **Strassen's Algorithm:** Comparative analysis of O($n^2.81$) vs AlphaTensor's findings.
 
 ## 📂 Project Structure
 
