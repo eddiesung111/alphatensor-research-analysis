@@ -12,5 +12,19 @@ This repository contains a technical analysis and reproduction study of DeepMind
 * **RL Agent:** How AlphaZero was adapted to minimize the rank of the tensor (minimizing scalar multiplications).
 * **Strassen's Algorithm:** Comparative analysis of O(n^2.81) vs AlphaTensor's findings.
 
+## 📂 Project Structure
+
+```text
+.
+├── AlphaTensor_Analysis_Report.pdf   # Full technical breakdown (Overleaf)
+├── Presentation_Slides.pdf           # Summary slides
+├── src/
+│   └── complexity_analysis.py        # Python script visualizing O(N) scaling
+├── img/
+│   └── complexity_comparison.png     # Generated visualization graph
+├── requirements.txt                  # Python dependencies
+└── README.md
+```
+
 ## 🔗 Original Paper
 * Fawzi et al. (2022). *Discovering faster matrix multiplication algorithms with reinforcement learning*. Nature.
